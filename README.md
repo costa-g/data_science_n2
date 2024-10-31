@@ -83,15 +83,3 @@ streamlit run dashboard.py
 ```
 
 Isso abrirá uma nova aba em seu navegador padrão com a interface do dashboard.
-
-## Contribuição
-
-Sinta-se à vontade para contribuir com o projeto! Você pode abrir issues ou pull requests conforme necessário.
-
-## Licença
-
-Este projeto está licenciado sob a MIT License. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-Se tiver dúvidas ou precisar de mais informações, entre em contato!
