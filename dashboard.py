@@ -4,15 +4,12 @@ import streamlit as st
 import pandas as pd
 import os
 
-# Caminho completo para o mapa
 mapa_path = os.path.abspath("resultado_eleicoes_mapa.html")
 
-# Configuração do título e introdução do dashboard
 st.title("Dashboard de Análise das Eleições Municipais 2024")
 st.write("Este dashboard apresenta uma análise dos dados das eleições municipais de 2024, "
          "incluindo insights sobre poder econômico, coligações, redes sociais e propostas de governo.")
 
-# Caminho para a pasta de saída com os gráficos e tabelas
 output_path = "output/"
 
 # Insight 1: Média de Bens Declarados - Prefeitos Eleitos vs Não Eleitos
@@ -72,7 +69,7 @@ st.dataframe(termos_propostas)
 # Insight 9: Mapeamento do Resultado das Eleições com Folium
 st.subheader("Insight 9: Mapeamento do Resultado das Eleições com Folium")
 st.write("Clique no link abaixo para visualizar o mapa dos resultados das eleições:")
-# Lê o conteúdo do arquivo HTML e incorpora no Streamlit
+
 with open("output/resultado_eleicoes_mapa.html", "r", encoding="utf-8") as file:
     mapa_html = file.read()
 
@@ -80,5 +77,4 @@ st.components.v1.html(mapa_html, height=600, scrolling=True)
 
 st.write("Este mapa interativo exibe o partido vencedor em cada município, colorido de acordo com a legenda.")
 
-# Rodapé
 st.write("Fonte: Dados das Eleições 2024")
