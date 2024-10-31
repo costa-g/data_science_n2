@@ -5,12 +5,19 @@ Este projeto tem como objetivo analisar dados eleitorais e gerar visualizações
 IMPORTANTE: Para executar o analise_eleitoral.py, é necessário ter uma hierarquia de pastas e arquivos como no exemplo abaixo:
 
 data/candidatos/{files}
+
 data/candidatos_bens/{files}
+
 data/candidatos_info_complementar/{files}
+
 data/candidatos_propostas_governo/SC/{files}
+
 data/candidatos_redes_sociais/{files}
+
 data/coligacoes/{files}
+
 data/motivo_cassacao/{files}
+
 data/vagas/{files}
 
 Devido ao tamanho dos arquivos, não foi possível fazer o upload da pasta no git.
